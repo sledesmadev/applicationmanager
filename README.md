@@ -3,6 +3,8 @@
  
 **Prerequisites:** [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
 
+The database is created in remotemysql.com
+
 ## Getting Started
 
 To install this example application, run the following commands:
