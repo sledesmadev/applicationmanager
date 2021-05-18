@@ -1,0 +1,26 @@
+<!--login modal-->
+<div id="loginModal"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="text-center">Register</h1>
+        </div>
+        <div class="modal-body">
+            <form #signUpForm="ngForm" (ngSubmit)="onSubmit()" class="form col-md-12 center-block">
+              <div class="form-group">
+                <input type="text" name="username" class="form-control input-lg" [(ngModel)]="user.username" #username="ngModel" placeholder="Username" required>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control input-lg" [(ngModel)]="user.password" #password="ngModel" placeholder="Password" required>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary btn-lg btn-block" >Sign up</button>
+                <span class="pull-right"><a routerLink="/Login">Login</a></span>
+              </div>
+            </form>
+        </div>
+    </div>
+    </div>
+  </div>
+
+ 
