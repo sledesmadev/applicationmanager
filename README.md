@@ -1,4 +1,4 @@
-# Application Manager
+# Application Manager (In Development)
 # Spring Boot API with Angular UI
  
 **Prerequisites:** [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Node.js](https://nodejs.org/).
